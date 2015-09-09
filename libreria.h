@@ -10,10 +10,30 @@
 
 typdef struc tnodo{
 	char dato;
+	int pasos;
+	int tiempo;
+	int color;
 	struct tnodo *anterior;
 	struct tnodo *siguiente;
+	struct tnodo *padre;
+	
 }Nodo;
 
-main(){
+int MatrizAdyacencia[8][8]{
+							0,1,0,0,1,0,1,0
+							1,0,1,0,1,1,1,0
+							0,1,0,1,0,0,0,1
+							0,0,1,0,0,1,0,2
+							1,1,0,0,0,0,0,0
+							0,1,0,1,0,0,0,0
+							1,1,0,0,0,0,0,0
+							0,0,1,2,0,0,0,0}
+							
+	
+							
+							
+							
+							
+int main(){
 }
 
